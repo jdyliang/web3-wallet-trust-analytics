@@ -65,3 +65,12 @@ Future steps may include:
 - Detecting bot-like activity patterns
 - Building a Trust API for reputation signals
 - Creating visualization dashboards
+
+## Project Overview
+This project analyzes blockchain wallet transaction data and generates behavioral features that can be used to estimate wallet trust and human likelihood.
+
+The pipeline:
+1. Extract wallet transactions from Etherscan API
+2. Clean transaction dataset
+3. Generate behavioral features
+4. Export structured dataset
