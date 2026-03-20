@@ -33,6 +33,32 @@ In Week 2, I performed exploratory data analysis (EDA) on wallet transaction fea
 - A subset of wallets heavily relies on stablecoins.
 - These wallets may be associated with trading strategies or liquidity management.
 
+## Additional Insights (Behabioral Patterns)
+From the exploratory analysis, several behavioral patterns can be observed:
+
+### 1. High Burst Activity
+Some wallets exhibit extremely high transaction counts within short time periods. This may indicate automated or bot-like behavior.
+
+### 2. Low Activity Consistency
+Wallets with irregular transactions timing (long gaps followed by sudden spikes) tend to have low activity consistency, which can also non-human activity.
+
+### 3. Stablecoin Usage Patterns
+Wallets with a high proportion of stablecoin transactions may be engaged in trading, arbitrage, or liquidity-related strategies rather than typical user behavior.
+
+### 4. Transaction Frequency vs Age
+Older wallets do not necessarily have higher transaction frequency. Some newer wallets show unsually high activity, which may indicate scripted usage.
+
+### 5. Potential Bot Indicators
+A combination of:
+- high tx_frequency
+- high burst_ratio
+- low diverisity (few counterparties)
+
+may sugest bot-like wallets.
+
+These patterns can be used aas inputs for a future wallet trust scoring model. 
+
+
 ## Next Steps
 - Develop a wallet trust scoring model
 - Detect bot-like patterns using burst and consistency features
