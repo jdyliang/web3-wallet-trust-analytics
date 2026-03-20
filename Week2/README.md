@@ -7,3 +7,8 @@ This week focuses on generating behavioral features from wallet transactions and
 - EDA analysis
 - Visualization outputs
 - Preliminary insights
+  
+## Key Outputs
+- wallet_features_v2.csv
+- EDA visualizations
+- preliminary insights
