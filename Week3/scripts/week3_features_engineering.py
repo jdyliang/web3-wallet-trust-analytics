@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import time
 
-API_KEY = "CWTP4RA92UXQ4MNEJ6TSNWSABV5552YEEG"
+API_KEY = "YOUR_API_KEY"
 
 wallet_df = pd.read_csv("week3_wallet_list_200.csv")
 wallet_list = wallet_df["wallet"].dropna().tolist()
