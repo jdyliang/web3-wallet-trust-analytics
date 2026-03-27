@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 
-API_KEY = "CWTP4RA92UXQ4MNEJ6TSNWSABV5552YEEG"
+API_KEY = "YOUR_API_KEY"
 
 seed_wallets = [
     "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
