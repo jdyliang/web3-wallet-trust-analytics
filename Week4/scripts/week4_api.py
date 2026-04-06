@@ -4,8 +4,7 @@ from datetime import datetime
 
 app = FastAPI(title = "Wallet Trust API")
 
-df = pd.read_csv("/Users/judy/Desktop/Innovation AI/week 3/csv files/week3_wallet_scored.csv")
-
+df = pd.read_csv("../outputs/week3_wallet_scored.csv")
 df["wallet"] = df["wallet"].astype(str).str.lower()
 
 
