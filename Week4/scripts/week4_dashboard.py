@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("/Users/judy/Desktop/Innovation AI/week 3/csv files/week3_wallet_scored.csv")
+df = pd.read_csv("../outputs/week3_wallet_scored.csv")
 
 st.title("Wallet Trust Dashboard")
 
